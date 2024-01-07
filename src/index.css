@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+input,
+textarea,
+select {
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+}
+ul {
+  list-style: inside;
+}
+ol {
+  list-style: inside;
+  list-style-type: number;
+}
+.sidebar {
+  transition: all 100ms ease-in-out;
+}
+.icon-text {
+  display: none;
+}
+.link-item {
+  height: 40px;
+}
+.link-item .active-link {
+  background-color: #fb3640;
+}
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 9px;
+}
+.transition {
+  transition: all 300ms ease-in-out;
+}
+.react-tagsinput-tag,
+.tags {
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: rgba(0, 0, 0, 0.08) !important;
+  margin: 5px 5px 0 !important;
+  border: none !important;
+}
+
+@media screen and (min-width: 992px) {
+  .sidebar {
+    width: 240px;
+  }
+  .icon-text {
+    display: block;
+    margin-left: 6px;
+  }
+  .link-item {
+    justify-content: flex-start;
+    padding-left: 16px;
+  }
+}
