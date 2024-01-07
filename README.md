@@ -1,6 +1,6 @@
-### React NOTES <span role="img" aria-label="memo">📝</span>
+### NOTES APP <span role="img" aria-label="memo">📝</span>
 
-A simple Note taking app built with React & Redux.
+A simple Note taking app built with React , Redux & tailwind CSS.
 
 
 ## How to install and run locally?
