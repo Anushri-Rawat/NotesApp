@@ -6,10 +6,10 @@ A simple Note taking app built with React , Redux & tailwind CSS.
 ## How to install and run locally?
 
 ```
-$ git clone https://github.com/SudiptaChakraborty51/Note-Zone.git
-$ cd note-zone
+$ git clone https://github.com/Anushri-Rawat/NotesApp.git
+$ cd NotesApp
 $ npm install
-$ npm run dev
+$ npm start
 ```
 
 ## **Features :**
